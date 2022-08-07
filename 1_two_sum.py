@@ -9,15 +9,10 @@
 nums = [2, 7, 11, 15]
 target = 9
 solution = []
-
 for i in range(len(nums)):
-    try:
-        num2 = nums.index(target - nums[i], i)
+    if (target - nums[i]) in nums:
+        num2 = nums.index(target - nums[i])
         if num2 != i:
             solution.append(i)
             solution.append(num2)
             break
-        else:
-            continue
-    except ValueError:
-        continue

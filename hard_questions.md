@@ -2,13 +2,21 @@
 Record some hard questions.
 
 ## No idea at all or wrong idea
-* 238 Product of array except self
-* 3 3Sum
-* 33 Search in rotated sorted array
-* 721 Accounts merge
+
+| No. | Title                          | Difficulty |
+|-----|--------------------------------|------------|
+| 238 | Product of array except self   | Medium     |
+| 3   | 3Sum                           | Medium     |
+| 33  | Search in rotated sorted array | Medium     |
+| 721 | Accounts merge                 | Medium     |
+
 
 ## On the right track but still can't solve
-* 57 Insert interval
-* 155 Min stack
-* 322 Coin change
-* 39 Combination sum
+
+| No. | Title           | Difficulty |
+|-----|-----------------|------------|
+| 57  | Insert interval | Medium     |
+| 155 | Min stack       | Medium     |
+| 322 | Coin change     | Medium     |
+| 721 | Combination sum | Medium     |
+

@@ -18,5 +18,5 @@ Record some hard questions.
 | 57  | Insert interval | Medium     |
 | 155 | Min stack       | Medium     |
 | 322 | Coin change     | Medium     |
-| 721 | Combination sum | Medium     |
+| 39  | Combination sum | Medium     |
 

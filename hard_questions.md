@@ -20,6 +20,7 @@ Record some hard questions.
 | 127  | Word ladder                                               | Hard       | BFS              | Bidirectional BFS                |
 | 224  | Basic calculator                                          | Hard       | Stack            |                                  |
 | 1235 | Maximum profit in job scheduling                          | Hard       | DP               | Only know brute-force            |
+| 84   |                                                           |            |                  |                                  |
 
 ## On the right track but still can't solve
 

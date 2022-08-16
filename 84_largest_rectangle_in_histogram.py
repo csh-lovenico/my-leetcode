@@ -14,16 +14,13 @@ class Solution:
         for i in range(len(heights)):
             startIndex = i
             while stack and stack[-1][1] > heights[i]:
-                print('in while')
-                print(stack)
+                # when meet a decreased height, pop the stored height from the stack, compute the area before
+                # until the height in the stack is smaller than the heights[i] or the stack is empty
                 index, height = stack.pop()
                 maxArea = max(maxArea, height * (i - index))
                 startIndex = index
 
-            print('out while')
             stack.append([startIndex, heights[i]])
-            print(stack)
-        print(stack)
 
         for i in range(len(stack)):
             indx, height = stack.pop()
@@ -33,4 +30,4 @@ class Solution:
 
 
 if __name__ == '__main__':
-    print(Solution().largestRectangleArea([2,4,5,6,5,5]))
+    print(Solution().largestRectangleArea([2, 1, 5, 6, 2, 3]))

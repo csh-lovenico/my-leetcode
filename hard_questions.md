@@ -4,23 +4,27 @@ Record some hard questions.
 
 ## No idea at all or wrong way
 
-| No.  | Title                                                     | Difficulty | Topic            | Notes                            |
-|------|-----------------------------------------------------------|------------|------------------|----------------------------------|
-| 238  | Product of array except self                              | Medium     | Prefix sum       |                                  |
-| 3    | 3Sum                                                      | Medium     | Two pointers     |                                  |
-| 721  | Accounts merge                                            | Medium     | Disjoint set     | No idea                          |
-| 139  | Word break                                                | Medium     | DP               |                                  |
-| 78   | Subsets                                                   | Medium     | Bit manipulation | Wrong way: DFS (too slow)        |
-| 5    | Longest palindromic substring                             | Medium     | Two pointers     | No idea                          |
-| 2375 | Construct smallest number from DI String                  | Medium     | Stack            | Question 3 in weekly contest 306 |
-| 105  | Construct binary tree from preorder and inorder traversal | Medium     | Tree / DFS       | No idea                          |
-| 11   | Container with most water                                 | Medium     | Two pointers     | Wrong way: DP (too slow)         |
-| 310  | Minimum height trees                                      | Medium     | BFS              | I only know brute-force          |
-| 42   | Trapping rain water                                       | Hard       | Two pointers     | No idea                          |
-| 127  | Word ladder                                               | Hard       | BFS              | Bidirectional BFS                |
-| 224  | Basic calculator                                          | Hard       | Stack            |                                  |
-| 1235 | Maximum profit in job scheduling                          | Hard       | DP               | Only know brute-force            |
-| 84   |                                                           |            |                  |                                  |
+| No.  | Title                                                     | Difficulty | Topic            | Notes                                       |
+|------|-----------------------------------------------------------|------------|------------------|---------------------------------------------|
+| 238  | Product of array except self                              | Medium     | Prefix sum       |                                             |
+| 3    | 3Sum                                                      | Medium     | Two pointers     |                                             |
+| 721  | Accounts merge                                            | Medium     | Disjoint set     | No idea                                     |
+| 139  | Word break                                                | Medium     | DP               |                                             |
+| 78   | Subsets                                                   | Medium     | Bit manipulation | Wrong way: DFS (too slow)                   |
+| 5    | Longest palindromic substring                             | Medium     | Two pointers     | No idea                                     |
+| 2375 | Construct smallest number from DI String                  | Medium     | Stack            | Question 3 in weekly contest 306            |
+| 105  | Construct binary tree from preorder and inorder traversal | Medium     | Tree / DFS       | No idea                                     |
+| 11   | Container with most water                                 | Medium     | Two pointers     | Wrong way: DP (too slow)                    |
+| 310  | Minimum height trees                                      | Medium     | BFS              | I only know brute-force                     |
+| 42   | Trapping rain water                                       | Hard       | Two pointers     | No idea                                     |
+| 127  | Word ladder                                               | Hard       | BFS              | Bidirectional BFS                           |
+| 224  | Basic calculator                                          | Hard       | Stack            |                                             |
+| 1235 | Maximum profit in job scheduling                          | Hard       | DP               | Only know brute-force                       |
+| 84   | Largest rectangle in histogram                            | Hard       | Stack            | Monotonic stack                             |
+| 136  | Single number                                             | Easy       | Bit manipulation | Use dict is viable but not a constant space |
+| 101  | Symmetric tree                                            | Easy       | DFS              |                                             |
+| 572  | Subtree of another tree                                   | Easy       | BFS / DFS        |                                             |
+| 134  | Gas station                                               | Medium     | Array            |                                             |
 
 ## On the right track but still can't solve
 

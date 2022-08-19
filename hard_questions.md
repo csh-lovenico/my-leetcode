@@ -27,22 +27,26 @@ Record some hard questions.
 | 134  | Gas station                                               | Medium     | Array            |                                             |
 | 31   | Next permutation                                          | Medium     | Two pointers     |                                             |
 | 287  | Find the duplicate number                                 | Medium     | Two pointers     | A linked list cycle problem                 |
+| 24   | Swap nodes in pairs                                       | Medium     | Linked list      |                                             |
+| 128  | Longest consecutive subsequence                           | Medium     | Hash table       |                                             |
 
 ## On the right track but still can't solve
 
-| No. | Title                                      | Difficulty | Topic         | Notes                                                  |
-|-----|--------------------------------------------|------------|---------------|--------------------------------------------------------|
-| 57  | Insert interval                            | Medium     | Interval      |                                                        |
-| 155 | Min stack                                  | Medium     | Stack         |                                                        |
-| 322 | Coin change                                | Medium     | DP            |                                                        |
-| 39  | Combination sum                            | Medium     | DFS           |                                                        |
-| 416 | Partition equal subset sum                 | Medium     | DP            |                                                        |
-| 33  | Search in rotated sorted array             | Medium     | Binary search | Correct way, but no idea when to move the mid pointer. |
-| 79  | Word search                                | Medium     | Backtrack     | Correct idea, but my code is too slow.                 |
-| 621 | Task scheduler                             | Medium     | Heap          | Correct idea, think too much                           |
-| 76  | Minimum window substring                   | Hard       | Two pointers  | Have similar idea but unable to implement              |
-| 295 | Find median from data stream               | Hard       | Heap          | Two heaps                                              |
-| 152 | Maximum product subarray                   | Medium     | DP            | Use two dp arrays to save max and min products         |
-| 211 | Design add and search words data structure | Medium     | Trie          |                                                        |
-| 417 | Pacific atlantic water flow                | Medium     | BFS / DFS     | My BFS too slow                                        |
+| No.  | Title                                      | Difficulty | Topic         | Notes                                                  |
+|------|--------------------------------------------|------------|---------------|--------------------------------------------------------|
+| 57   | Insert interval                            | Medium     | Interval      |                                                        |
+| 155  | Min stack                                  | Medium     | Stack         |                                                        |
+| 322  | Coin change                                | Medium     | DP            |                                                        |
+| 39   | Combination sum                            | Medium     | DFS           |                                                        |
+| 416  | Partition equal subset sum                 | Medium     | DP            |                                                        |
+| 33   | Search in rotated sorted array             | Medium     | Binary search | Correct way, but no idea when to move the mid pointer. |
+| 79   | Word search                                | Medium     | Backtrack     | Correct idea, but my code is too slow.                 |
+| 621  | Task scheduler                             | Medium     | Heap          | Correct idea, think too much                           |
+| 76   | Minimum window substring                   | Hard       | Two pointers  | Have similar idea but unable to implement              |
+| 295  | Find median from data stream               | Hard       | Heap          | Two heaps                                              |
+| 152  | Maximum product subarray                   | Medium     | DP            | Use two dp arrays to save max and min products         |
+| 211  | Design add and search words data structure | Medium     | Trie          |                                                        |
+| 417  | Pacific atlantic water flow                | Medium     | BFS / DFS     | My BFS too slow                                        |
+| 1730 | Shortest path to get food                  | Medium     | BFS           | My BFS too slow                                        |
+| 300  | Longest increasing subsequence             | Medium     | DP            |                                                        |
 

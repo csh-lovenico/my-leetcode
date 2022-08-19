@@ -14,7 +14,8 @@ class UnionSet:
         child = self.get_parent(child)
         parent_rank = self.rank[parent]
         child_rank = self.rank[child]
-
+        if parent == child:
+            return
         if parent_rank > child_rank:
             self.parent[child] = parent
         elif parent_rank < child_rank:

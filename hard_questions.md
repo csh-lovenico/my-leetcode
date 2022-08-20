@@ -29,6 +29,7 @@ Record some hard questions.
 | 287  | Find the duplicate number                                 | Medium     | Two pointers     | A linked list cycle problem                 |
 | 24   | Swap nodes in pairs                                       | Medium     | Linked list      |                                             |
 | 128  | Longest consecutive subsequence                           | Medium     | Hash table       |                                             |
+| 525  | Contiguous array                                          | Medium     | Hash table       |                                             |
 
 ## On the right track but still can't solve
 
@@ -49,4 +50,6 @@ Record some hard questions.
 | 417  | Pacific atlantic water flow                | Medium     | BFS / DFS     | My BFS too slow                                        |
 | 1730 | Shortest path to get food                  | Medium     | BFS           | My BFS too slow                                        |
 | 300  | Longest increasing subsequence             | Medium     | DP            |                                                        |
+| 328  | Odd even linked list                       | Medium     | Linked list   |                                                        |
+| 394  | Decode string                              | Medium     | Stack         |                                                        |
 

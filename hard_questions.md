@@ -30,6 +30,9 @@ Record some hard questions.
 | 24   | Swap nodes in pairs                                       | Medium     | Linked list      |                                             |
 | 128  | Longest consecutive subsequence                           | Medium     | Hash table       |                                             |
 | 525  | Contiguous array                                          | Medium     | Hash table       |                                             |
+| 662  | Maximum width of binary tree                              | Medium     | Binary tree      |                                             |
+| 424  | Longest repeating character replacement                   | Medium     | Sliding window   |                                             |
+| 22   | Generate parenthesis                                      | Medium     | Backtrack        |                                             |
 
 ## On the right track but still can't solve
 
@@ -52,4 +55,6 @@ Record some hard questions.
 | 300  | Longest increasing subsequence             | Medium     | DP            |                                                        |
 | 328  | Odd even linked list                       | Medium     | Linked list   |                                                        |
 | 394  | Decode string                              | Medium     | Stack         |                                                        |
+| 55   | Jump game                                  | Medium     | DP            |                                                        |
+| 148  | Sort list                                  | Medium     | Merge sort    | Fast pointer + Merge sort                              |
 

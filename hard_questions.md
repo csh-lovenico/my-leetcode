@@ -57,4 +57,5 @@ Record some hard questions.
 | 394  | Decode string                              | Medium     | Stack         |                                                        |
 | 55   | Jump game                                  | Medium     | DP            |                                                        |
 | 148  | Sort list                                  | Medium     | Merge sort    | Fast pointer + Merge sort                              |
+| 560  | Subarray sum equals k                      | Medium     | Hash table    |                                                        |
 

@@ -33,29 +33,34 @@ Record some hard questions.
 | 662  | Maximum width of binary tree                              | Medium     | Binary tree      |                                             |
 | 424  | Longest repeating character replacement                   | Medium     | Sliding window   |                                             |
 | 22   | Generate parenthesis                                      | Medium     | Backtrack        |                                             |
+| 221  | Maximal square                                            | Medium     | DP               |                                             |
+| 437  | Path sum III                                              | Medium     | Hash table       | Similar to 560: Subarray sum equals K       |
 
 ## On the right track but still can't solve
 
-| No.  | Title                                      | Difficulty | Topic         | Notes                                                  |
-|------|--------------------------------------------|------------|---------------|--------------------------------------------------------|
-| 57   | Insert interval                            | Medium     | Interval      |                                                        |
-| 155  | Min stack                                  | Medium     | Stack         |                                                        |
-| 322  | Coin change                                | Medium     | DP            |                                                        |
-| 39   | Combination sum                            | Medium     | DFS           |                                                        |
-| 416  | Partition equal subset sum                 | Medium     | DP            |                                                        |
-| 33   | Search in rotated sorted array             | Medium     | Binary search | Correct way, but no idea when to move the mid pointer. |
-| 79   | Word search                                | Medium     | Backtrack     | Correct idea, but my code is too slow.                 |
-| 621  | Task scheduler                             | Medium     | Heap          | Correct idea, think too much                           |
-| 76   | Minimum window substring                   | Hard       | Two pointers  | Have similar idea but unable to implement              |
-| 295  | Find median from data stream               | Hard       | Heap          | Two heaps                                              |
-| 152  | Maximum product subarray                   | Medium     | DP            | Use two dp arrays to save max and min products         |
-| 211  | Design add and search words data structure | Medium     | Trie          |                                                        |
-| 417  | Pacific atlantic water flow                | Medium     | BFS / DFS     | My BFS too slow                                        |
-| 1730 | Shortest path to get food                  | Medium     | BFS           | My BFS too slow                                        |
-| 300  | Longest increasing subsequence             | Medium     | DP            |                                                        |
-| 328  | Odd even linked list                       | Medium     | Linked list   |                                                        |
-| 394  | Decode string                              | Medium     | Stack         |                                                        |
-| 55   | Jump game                                  | Medium     | DP            |                                                        |
-| 148  | Sort list                                  | Medium     | Merge sort    | Fast pointer + Merge sort                              |
-| 560  | Subarray sum equals k                      | Medium     | Hash table    |                                                        |
+| No.  | Title                                      | Difficulty | Topic            | Notes                                                  |
+|------|--------------------------------------------|------------|------------------|--------------------------------------------------------|
+| 57   | Insert interval                            | Medium     | Interval         |                                                        |
+| 155  | Min stack                                  | Medium     | Stack            |                                                        |
+| 322  | Coin change                                | Medium     | DP               |                                                        |
+| 39   | Combination sum                            | Medium     | DFS              |                                                        |
+| 416  | Partition equal subset sum                 | Medium     | DP               |                                                        |
+| 33   | Search in rotated sorted array             | Medium     | Binary search    | Correct way, but no idea when to move the mid pointer. |
+| 79   | Word search                                | Medium     | Backtrack        | Correct idea, but my code is too slow.                 |
+| 621  | Task scheduler                             | Medium     | Heap             | Correct idea, think too much                           |
+| 76   | Minimum window substring                   | Hard       | Two pointers     | Have similar idea but unable to implement              |
+| 295  | Find median from data stream               | Hard       | Heap             | Two heaps                                              |
+| 152  | Maximum product subarray                   | Medium     | DP               | Use two dp arrays to save max and min products         |
+| 211  | Design add and search words data structure | Medium     | Trie             |                                                        |
+| 417  | Pacific atlantic water flow                | Medium     | BFS / DFS        | My BFS too slow                                        |
+| 1730 | Shortest path to get food                  | Medium     | BFS              | My BFS too slow                                        |
+| 300  | Longest increasing subsequence             | Medium     | DP               |                                                        |
+| 328  | Odd even linked list                       | Medium     | Linked list      |                                                        |
+| 394  | Decode string                              | Medium     | Stack            |                                                        |
+| 55   | Jump game                                  | Medium     | DP               |                                                        |
+| 148  | Sort list                                  | Medium     | Merge sort       | Fast pointer + Merge sort                              |
+| 560  | Subarray sum equals k                      | Medium     | Hash table       |                                                        |
+| 179  | Largest number                             | Medium     | Sorting / Greedy |                                                        |
+| 91   | Decode ways                                | Medium     | DP               |                                                        |
+| 143  | Reorder list                               | Medium     | Linked list      |                                                        |
 

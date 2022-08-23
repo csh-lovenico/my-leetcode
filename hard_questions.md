@@ -35,6 +35,7 @@ Record some hard questions.
 | 22   | Generate parenthesis                                      | Medium     | Backtrack        |                                             |
 | 221  | Maximal square                                            | Medium     | DP               |                                             |
 | 437  | Path sum III                                              | Medium     | Hash table       | Similar to 560: Subarray sum equals K       |
+| 227  | Basic calculator II                                       | Medium     | Stack            |                                             |
 
 ## On the right track but still can't solve
 
@@ -63,4 +64,7 @@ Record some hard questions.
 | 179  | Largest number                             | Medium     | Sorting / Greedy |                                                        |
 | 91   | Decode ways                                | Medium     | DP               |                                                        |
 | 143  | Reorder list                               | Medium     | Linked list      |                                                        |
+| 787  | Cheapest flights within K stops            | Medium     | BFS              | Dijkstra also can solve                                |
+| 16   | 3Sum closest                               | Medium     | Two pointers     |                                                        |
+| 377  | Combination sum IV                         | Medium     | DP               |                                                        |
 

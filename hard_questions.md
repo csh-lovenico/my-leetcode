@@ -36,6 +36,8 @@ Record some hard questions.
 | 221  | Maximal square                                            | Medium     | DP               |                                             |
 | 437  | Path sum III                                              | Medium     | Hash table       | Similar to 560: Subarray sum equals K       |
 | 227  | Basic calculator II                                       | Medium     | Stack            |                                             |
+| 435  | Non overlapping intervals                                 | Medium     | Greedy           |                                             |
+| 253  | Meeting Rooms II                                          | Medium     | Heap             |                                             |
 
 ## On the right track but still can't solve
 
@@ -67,4 +69,5 @@ Record some hard questions.
 | 787  | Cheapest flights within K stops            | Medium     | BFS              | Dijkstra also can solve                                |
 | 16   | 3Sum closest                               | Medium     | Two pointers     |                                                        |
 | 377  | Combination sum IV                         | Medium     | DP               |                                                        |
+| 1197 | Minimum knight moves                       | Medium     | BFS              | Bidirectional BFS to avoid TLE                         |
 

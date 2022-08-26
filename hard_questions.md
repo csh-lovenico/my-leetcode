@@ -38,6 +38,8 @@ Record some hard questions.
 | 227  | Basic calculator II                                       | Medium     | Stack            |                                             |
 | 435  | Non overlapping intervals                                 | Medium     | Greedy           |                                             |
 | 253  | Meeting Rooms II                                          | Medium     | Heap             |                                             |
+| 124  | Binary tree maximum path sum                              | Hard       | DFS              |                                             |
+| 329  | Longest increasing path in a matrix                       | Hard       | DFS + DP         |                                             |
 
 ## On the right track but still can't solve
 

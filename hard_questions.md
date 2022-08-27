@@ -40,6 +40,7 @@ Record some hard questions.
 | 253  | Meeting Rooms II                                          | Medium     | Heap             |                                             |
 | 124  | Binary tree maximum path sum                              | Hard       | DFS              |                                             |
 | 329  | Longest increasing path in a matrix                       | Hard       | DFS + DP         |                                             |
+| 212  | Word search II                                            | Hard       | DFS + Trie       |                                             |
 
 ## On the right track but still can't solve
 
@@ -72,4 +73,6 @@ Record some hard questions.
 | 16   | 3Sum closest                               | Medium     | Two pointers     |                                                        |
 | 377  | Combination sum IV                         | Medium     | DP               |                                                        |
 | 1197 | Minimum knight moves                       | Medium     | BFS              | Bidirectional BFS to avoid TLE                         |
+| 32   | Longest valid parentheses                  | Hard       | Stack / DP       |                                                        |
+| 815  | Bus routes                                 | Hard       | BFS              |                                                        |
 

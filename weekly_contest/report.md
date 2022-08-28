@@ -25,3 +25,19 @@ Rank: 13550 / 24127
 | 3        | Amount of time for binary tree to be infected  | Medium     | DNF     |                                    |
 | 4        | Find the K-sum of an array                     | Hard       | DNF     |                                    |
 | Total    |                                                |            | 1:34:25 |                                    |
+
+
+## Weekly contest 308
+
+[Contest page](https://leetcode.com/contest/weekly-contest-308/)
+
+Rank: 9385 / 24172
+
+| Question | Name                                      | Difficulty | Time    | Notes    |
+|----------|-------------------------------------------|------------|---------|----------|
+| 1        | Longest Subsequence With Limited Sum      | Easy       | 1:01:20 | 3 errors |
+| 2        | Removing Stars From a String              | Medium     | 0:29:24 |          |
+| 3        | Minimum Amount of Time to Collect Garbage | Medium     | 0:53:52 | 1 error  |
+| 4        | Build a Matrix With Conditions            | Hard       | DNF     |          |
+| Total    |                                           |            | 1:21:20 |          |
+

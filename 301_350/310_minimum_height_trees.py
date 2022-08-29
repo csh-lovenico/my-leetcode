@@ -2,6 +2,7 @@ import collections
 from typing import List
 
 
+# https://leetcode.com/problems/minimum-height-trees/discuss/2320379/Python3-Simple-BFS-solution-using-queue-with-comments
 class Solution:
     def findMinHeightTrees(self, n: int, edges: List[List[int]]) -> List[int]:
         # Start BFS from leaves (degree 0), add them to queue

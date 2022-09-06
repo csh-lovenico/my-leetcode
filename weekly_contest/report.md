@@ -4,6 +4,8 @@
 
 [Contest page](https://leetcode.com/contest/weekly-contest-306/)
 
+Rank: 8944 / 24853 (35.9%)
+
 | Question | Name                                     | Difficulty | Time    | Notes    |
 |----------|------------------------------------------|------------|---------|----------|
 | 1        | Largest local values in a matrix         | Easy       | 0:25:14 | +0:10:00 |
@@ -16,7 +18,7 @@
 
 [Contest page](https://leetcode.com/contest/weekly-contest-307/)
 
-Rank: 13550 / 24127
+Rank: 13550 / 24127 (56.1%)
 
 | Question | Name                                           | Difficulty | Time    | Notes                              |
 |----------|------------------------------------------------|------------|---------|------------------------------------|
@@ -31,7 +33,7 @@ Rank: 13550 / 24127
 
 [Contest page](https://leetcode.com/contest/weekly-contest-308/)
 
-Rank: 9385 / 24172
+Rank: 9385 / 24172 (38.8%)
 
 | Question | Name                                      | Difficulty | Time    | Notes    |
 |----------|-------------------------------------------|------------|---------|----------|
@@ -41,3 +43,17 @@ Rank: 9385 / 24172
 | 4        | Build a Matrix With Conditions            | Hard       | DNF     |          |
 | Total    |                                           |            | 1:21:20 |          |
 
+
+## Weekly contest 309
+
+[Contest page](https://leetcode.com/contest/weekly-contest-309/)
+
+Rank: 11414 / 25750 (44.3%)
+
+| Question | Name                                                     | Difficulty | Time    | Notes |
+|----------|----------------------------------------------------------|------------|---------|-------|
+| 1        | Check Distances Between Same Letters                     | Easy       | 0:12:59 |       |
+| 2        | Number of Ways to Reach a Position After Exactly k Steps | Medium     | DNF     |       |
+| 3        | Longest Nice Subarray                                    | Medium     | DNF     |       |
+| 4        | Meeting Rooms III                                        | Hard       | DNF     |       |
+| Total    |                                                          |            | 0:12:59 |       |

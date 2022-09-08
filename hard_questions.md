@@ -47,6 +47,7 @@ Record some hard questions.
 | 37   | Sudoku solver                                             | Hard       | Backtracking     |                                             |
 | 41   | First missing positive                                    | Hard       | Array            |                                             |
 | 632  | Smallest range covering elements from K lists             | Hard       | Heap             |                                             |
+| 29   | Divide two integers                                       | Medium     | Bitwise          |                                             |
 
 ## On the right track but still can't solve
 

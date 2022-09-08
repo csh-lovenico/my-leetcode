@@ -48,6 +48,8 @@ Record some hard questions.
 | 41   | First missing positive                                    | Hard       | Array            |                                             |
 | 632  | Smallest range covering elements from K lists             | Hard       | Heap             |                                             |
 | 29   | Divide two integers                                       | Medium     | Bitwise          |                                             |
+| 10   | Regular expression matching                               | Hard       | DP               |                                             |
+| 44   | Wildcard matching                                         | Hard       | DP               |                                             |
 
 ## On the right track but still can't solve
 

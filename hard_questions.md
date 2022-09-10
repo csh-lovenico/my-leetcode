@@ -50,6 +50,8 @@ Record some hard questions.
 | 29   | Divide two integers                                       | Medium     | Bitwise          |                                             |
 | 10   | Regular expression matching                               | Hard       | DP               |                                             |
 | 44   | Wildcard matching                                         | Hard       | DP               |                                             |
+| 1996 | THe number of weak characters in a game                   | Medium     | Sort             |                                             |
+| 122  | Best time to buy and sell stock II                        | Medium     | Greedy           |                                             |
 
 ## On the right track but still can't solve
 

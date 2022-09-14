@@ -52,6 +52,10 @@ Record some hard questions.
 | 44   | Wildcard matching                                         | Hard       | DP               |                                             |
 | 1996 | THe number of weak characters in a game                   | Medium     | Sort             |                                             |
 | 122  | Best time to buy and sell stock II                        | Medium     | Greedy           |                                             |
+| 188  | Best time to buy and sell stock IV                        | Hard       | DP               |                                             |
+| 1383 | Maximum performance of a team                             | Hard       | Sort             |                                             |
+| 2406 | Divide intervals into minimum number of groups            | Medium     | Sort             | Weekly contest 310 question 3               |
+| 948  | Bag of tokens                                             | Medium     | Two pointers     |                                             |
 
 ## On the right track but still can't solve
 

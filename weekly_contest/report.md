@@ -57,3 +57,18 @@ Rank: 11414 / 25750 (44.3%)
 | 3        | Longest Nice Subarray                                    | Medium     | DNF     |       |
 | 4        | Meeting Rooms III                                        | Hard       | DNF     |       |
 | Total    |                                                          |            | 0:12:59 |       |
+
+
+## Weekly contest 310
+
+[Contest page](https://leetcode.com/contest/weekly-contest-310/)
+
+Rank: 10347 / 26821 (38.5%)
+
+| Question | Name                                           | Difficulty | Time    | Notes   |
+|----------|------------------------------------------------|------------|---------|---------|
+| 1        | Most Frequent Even Element                     | Easy       | 0:16:06 |         |
+| 2        | Optimal Partition of String                    | Medium     | 0:27:38 | 1 error |
+| 3        | Divide Intervals Into Minimum Number of Groups | Medium     | DNF     |         |
+| 4        | Longest Increasing Subsequence II              | Hard       | DNF     |         |
+| Total    |                                                |            | 0:32:38 |         |

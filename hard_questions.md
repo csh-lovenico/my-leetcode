@@ -56,6 +56,7 @@ Record some hard questions.
 | 1383 | Maximum performance of a team                             | Hard       | Sort             |                                             |
 | 2406 | Divide intervals into minimum number of groups            | Medium     | Sort             | Weekly contest 310 question 3               |
 | 948  | Bag of tokens                                             | Medium     | Two pointers     |                                             |
+| 1770 | Maximum score from performing multiplication operations   | Medium     | DP               |                                             |
 
 ## On the right track but still can't solve
 

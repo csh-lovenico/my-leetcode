@@ -57,6 +57,12 @@ Record some hard questions.
 | 2406 | Divide intervals into minimum number of groups            | Medium     | Sort             | Weekly contest 310 question 3               |
 | 948  | Bag of tokens                                             | Medium     | Two pointers     |                                             |
 | 1770 | Maximum score from performing multiplication operations   | Medium     | DP               |                                             |
+| 718  | Maximum Length of repeated subarray                       | Medium     | DP               |                                             |
+| 131  | Palindrome partitioning                                   | Medium     | DFS              |                                             |
+| 780  | Reaching points                                           | Hard       | Math             |                                             |
+| 140  | Word break II                                             | Hard       | DFS              |                                             |
+| 149  | Max points on a line                                      | Hard       | Hashmap + math   |                                             |
+| 166  | Fraction to recurring decimal                             | Medium     | Math             |                                             |
 
 ## On the right track but still can't solve
 
@@ -94,4 +100,9 @@ Record some hard questions.
 | 51   | N queens                                                 | Hard       | Backtracking       |                                                        |
 | 142  | Linked list cycle II                                     | Medium     | Two pointers       |                                                        |
 | 2400 | Number of ways to reach a position after exactly k steps | Medium     | Math (Combination) | Weekly contest 309 question 2                          |
+| 647  | Palindromic substrings                                   | Medium     | Two pointers       |                                                        |
+| 1328 | Break a palindrome                                       | Medium     | String             |                                                        |
+| 130  | Surrounded regions                                       | Medium     | DFS                |                                                        |
+| 172  | Factorial trailing zeros                                 | Medium     | Math               |                                                        |
+| 204  | Count primes                                             | Medium     | Math               |                                                        |
 

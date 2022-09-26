@@ -72,3 +72,19 @@ Rank: 10347 / 26821 (38.5%)
 | 3        | Divide Intervals Into Minimum Number of Groups | Medium     | DNF     |         |
 | 4        | Longest Increasing Subsequence II              | Hard       | DNF     |         |
 | Total    |                                                |            | 0:32:38 |         |
+
+
+## Weekly contest 312
+
+[Contest page](https://leetcode.com/contest/weekly-contest-312/)
+
+Rank: 6301 / 24974 (25.3%)
+
+| Question | Name                                      | Difficulty | Time    | Notes    |
+|----------|-------------------------------------------|------------|---------|----------|
+| 1        | Sort the People                           | Easy       | 0:02:21 |          |
+| 2        | Longest Subarray With Maximum Bitwise AND | Medium     | 1:29:55 | 1 error  |
+| 3        | Find All Good Indices                     | Medium     | 0:55:52 | 4 errors |
+| 4        | Number of Good Paths                      | Hard       | DNF     |          |
+| Total    |                                           |            | 1:54:55 |          |
+

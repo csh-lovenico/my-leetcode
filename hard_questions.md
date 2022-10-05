@@ -63,6 +63,10 @@ Record some hard questions.
 | 140  | Word break II                                             | Hard       | DFS              |                                             |
 | 149  | Max points on a line                                      | Hard       | Hashmap + math   |                                             |
 | 166  | Fraction to recurring decimal                             | Medium     | Math             |                                             |
+| 315  | Count of smaller numbers after self                       | Hard       | Segment tree     | Sorted list in python can also solve        |
+| 1155 | Number of dice rolls with target sum                      | Medium     | DP               |                                             |
+| 218  | The skyline problem                                       | Hard       | SortedDict       | SortedDict in Python                        |
+| 240  | Search a 2d matrix                                        | Medium     | Binary search    | 2D binary search                            |
 
 ## On the right track but still can't solve
 
@@ -105,4 +109,5 @@ Record some hard questions.
 | 130  | Surrounded regions                                       | Medium     | DFS                |                                                        |
 | 172  | Factorial trailing zeros                                 | Medium     | Math               |                                                        |
 | 204  | Count primes                                             | Medium     | Math               |                                                        |
+| 334  | Increasing triplet subsequence                           | Medium     | Array              |                                                        |
 

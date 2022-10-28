@@ -1,3 +1,4 @@
+import collections
 import math
 from typing import List
 
@@ -11,26 +12,23 @@ class TimeMap:
         'timestamp_list':[1]
         }
         """
-        self.kv = dict()
+        self.kv = collections.defaultdict(lambda: {
+            'values': [],
+            'timestamp_list': []
+        })
 
     def set(self, key: str, value: str, timestamp: int) -> None:
-        try:
-            # position = self.find_insertion_point(self.kv[key]['timestamp_list'], timestamp)
-            self.kv[key]['values'].append(value)
-            self.kv[key]['timestamp_list'].append(timestamp)
-        except KeyError:
-            self.kv[key] = {
-                'values': [value],
-                'timestamp_list': [timestamp]
-            }
+        # position = self.find_insertion_point(self.kv[key]['timestamp_list'], timestamp)
+        self.kv[key]['values'].append(value)
+        self.kv[key]['timestamp_list'].append(timestamp)
 
     def get(self, key: str, timestamp: int) -> str:
-        try:
+        if key in self.kv:
             position = self.find_insertion_point(self.kv[key]['timestamp_list'], timestamp)
             if position == 0:
                 return ""
             return self.kv[key]['values'][position - 1]
-        except KeyError:
+        else:
             return ""
 
     # binary search to reduce time
@@ -46,7 +44,7 @@ class TimeMap:
         if lower == 0:
             if target < nums[0]:
                 return 0
-        return lower+1
+        return lower + 1
 
 
 if __name__ == '__main__':

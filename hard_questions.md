@@ -67,6 +67,8 @@ Record some hard questions.
 | 1155 | Number of dice rolls with target sum                      | Medium     | DP               |                                             |
 | 218  | The skyline problem                                       | Hard       | SortedDict       | SortedDict in Python                        |
 | 240  | Search a 2d matrix                                        | Medium     | Binary search    | 2D binary search                            |
+| 371  | Sum of two integers                                       | Medium     | Bit manipulation |                                             |
+| 732  | My calendar III                                           | Hard       | Sorted map       | std::map or TreeMap or SortedDict           |
 
 ## On the right track but still can't solve
 

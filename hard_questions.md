@@ -69,6 +69,7 @@ Record some hard questions.
 | 240  | Search a 2d matrix                                        | Medium     | Binary search    | 2D binary search                            |
 | 371  | Sum of two integers                                       | Medium     | Bit manipulation |                                             |
 | 732  | My calendar III                                           | Hard       | Sorted map       | std::map or TreeMap or SortedDict           |
+| 1531 | String compression II                                     | Hard       | DFS              |                                             |
 
 ## On the right track but still can't solve
 

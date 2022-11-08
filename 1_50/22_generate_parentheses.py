@@ -7,6 +7,7 @@ class Solution:
             if cpt_open == cpt_closed == n:
                 listRes.append(s)
             else:
+                # The number of right parenthesis cannot be more than left parenthesis in str.
                 if cpt_closed < cpt_open:
                     backtrack(s + ")", cpt_open, cpt_closed + 1, listRes)
                 if cpt_open < n:

@@ -1,4 +1,5 @@
 # Definition for a binary tree node.
+import math
 from typing import Optional
 
 
@@ -43,3 +44,22 @@ class Solution:
         self.direction_stack.pop()
         self.stack.pop()
         return result and dfs_result
+
+
+# faster
+class Solution2:
+    def isValidBST(self, root: Optional[TreeNode]) -> bool:
+        if not root:
+            return True
+
+        def check(rt: Optional[TreeNode], l_val, r_val) -> bool:
+            # l and r val is the interval the root's value should fall in
+            if not rt:
+                return True
+            if l_val >= rt.val or r_val <= rt.val:
+                return False
+            return check(rt.left, l_val, rt.val) and check(rt.right, rt.val, r_val)
+
+        # for the root node, value of left child will be in (-inf, root.val), value of right child will be in
+        # (root.val, inf)
+        return check(root.left, -math.inf, root.val) and check(root.right, root.val, math.inf)

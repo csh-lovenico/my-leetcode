@@ -1,3 +1,4 @@
+from collections import defaultdict, deque
 from typing import List
 
 
@@ -36,6 +37,37 @@ class Solution:
         return True
 
 
+# topology sort:
+# https://leetcode.com/problems/course-schedule/discuss/2467200/python-solution-using-topological-sort-bfs-approach.
+class SolutionTopologySort:
+    def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
+
+        # build the graph using dictionary.
+        visited = [0] * numCourses
+        graph = defaultdict(list)
+        for courses in prerequisites:
+            graph[courses[1]].append(courses[0])
+            visited[courses[0]] += 1
+
+        # find a node with no incoming edge and add it to queue.
+        queue = deque()
+        for i in range(numCourses):
+            if visited[i] == 0:
+                queue.append(i)
+
+        # topological sort algorithm - bfs approach.
+        total_courses = 0
+        while queue:
+            course = queue.popleft()
+            total_courses += 1
+            for prerequisite in graph[course]:
+                visited[prerequisite] -= 1
+                if visited[prerequisite] == 0:
+                    queue.append(prerequisite)
+
+        return total_courses == numCourses
+
+
 if __name__ == '__main__':
     numCourses = 100
     prerequisites = [[1, 0], [2, 0], [2, 1], [3, 1], [3, 2], [4, 2], [4, 3], [5, 3], [5, 4], [6, 4], [6, 5], [7, 5],
@@ -58,4 +90,4 @@ if __name__ == '__main__':
                      [88, 86], [88, 87], [89, 87], [89, 88], [90, 88], [90, 89], [91, 89], [91, 90], [92, 90], [92, 91],
                      [93, 91], [93, 92], [94, 92], [94, 93], [95, 93], [95, 94], [96, 94], [96, 95], [97, 95], [97, 96],
                      [98, 96], [98, 97], [99, 97]]
-    print(Solution().canFinish(numCourses, prerequisites))
+    print(SolutionTopologySort().canFinish(numCourses, prerequisites))

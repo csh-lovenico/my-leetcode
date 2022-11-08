@@ -10,6 +10,7 @@ class Solution:
                 temp, index = stack.pop()
                 result[index] = i - index
             stack.append((temperatures[i], i))
+            print(stack)
 
         return result
 

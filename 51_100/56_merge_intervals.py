@@ -36,7 +36,8 @@ class Solution:
         else:
             return False
 
-if __name__ =='__main__':
-    arr = [[1,4],[0,1]]
+
+if __name__ == '__main__':
+    arr = [[1, 4], [0, 1]]
     arr.sort()
     print(arr)

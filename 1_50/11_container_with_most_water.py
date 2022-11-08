@@ -1,6 +1,7 @@
 from typing import List
 
 
+# https://leetcode.com/problems/container-with-most-water/discuss/1069746/JS-Python-Java-C%2B%2B-or-2-Pointer-Solution-w-Visual-Explanation-or-beats-100
 class Solution:
     def maxArea(self, height: List[int]) -> int:
         left = 0

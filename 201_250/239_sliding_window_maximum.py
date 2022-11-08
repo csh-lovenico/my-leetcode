@@ -26,6 +26,7 @@ class Solution:
             # Append current elem to the correct position in queue
             mono_queue.append(right)
 
+            print(mono_queue)
             # If we are in a window
             if right >= k - 1:
                 # Append max elem from queue (front of queue) & increment left of window
@@ -36,4 +37,4 @@ class Solution:
 
 
 if __name__ == '__main__':
-    print(Solution().maxSlidingWindow([-7, -8, 7, 5, 7, 1, 6, 0], 4))
+    print(Solution().maxSlidingWindow([1, 3, -1, -3, 5, 3, 6, 7], 3))

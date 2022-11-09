@@ -13,3 +13,16 @@ class Solution:
             dp[i] = max(dp[i - 1] + nums[i], nums[i])
             max_sum[i] = max(max_sum[i - 1], dp[i])
         return max_sum[len(nums) - 1]
+
+    # Kadane's algorithm
+    # https://www.geeksforgeeks.org/largest-sum-contiguous-subarray/
+    def maxSubArrayKadane(self, nums: List[int]) -> int:
+        max_so_far = float('-inf')
+        max_ending = 0
+        for num in nums:
+            max_ending += num
+            if max_so_far < max_ending:
+                max_so_far = max_ending
+            if max_ending < 0:
+                max_ending = 0
+        return max_so_far
